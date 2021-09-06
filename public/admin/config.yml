@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: master
-  name: github
   repo: AndrezBlu3/magica.nocturna
 
 # publish_mode: editorial_workflow
