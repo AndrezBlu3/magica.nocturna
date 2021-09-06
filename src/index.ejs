@@ -18,11 +18,11 @@ eleventyComputed:
 <div class="flex justify-between text-sm">
   <% if (pagination.previous) { %>
   <div>
-    <a href="<%= pagination.previous.replace(/index.html$/, "") %>">← Newer Posts</a>
+    <a href="<%= pagination.previous.replace(/index.html$/, "") %>">← Post mas recientes</a>
   </div>
   <% } %> <% if (pagination.next) { %>
   <div class="ml-auto text-right">
-    <a href="<%= pagination.next.replace(/index.html$/, "") %>">Older Posts →</a>
+    <a href="<%= pagination.next.replace(/index.html$/, "") %>">Post antiguos →</a>
   </div>
   <% } %>
 </div>
