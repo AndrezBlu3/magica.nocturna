@@ -15,12 +15,12 @@ collections:
     editor:
       preview: false # Disable the editor preview and use instead 'preview links'
     fields: # The fields for each document, usually in front matter
-      - { name: "title", label: "Title" }
-      - { name: "description", label: "Description" }
-      - { name: "date", label: "Date", widget: "datetime" }
-      - { name: "body", label: "Body", widget: "markdown" }
+      - { name: "title", label: "Titulo" }
+      - { name: "description", label: "Descripcion" }
+      - { name: "date", label: "Fecha", widget: "datetime" }
+      - { name: "image" , label: "Imagen", widget: "image"}
   - name: "config"
-    label: "Configuration"
+    label: "Configuracion"
     editor:
       preview: false
     files:
@@ -28,9 +28,10 @@ collections:
         label: "Global"
         file: "src/_data/site.json"
         fields:
-          - { name: "site_name", label: "Site name" }
-          - { name: "title", label: "Site title" }
-          - { name: "description", label: "Site description" }
-          - { name: "url", label: "Site url" }
-          - { name: "locale", label: "Language" }
-          - { name: "author", label: "Author" }
+          - { name: "site_name", label: "Nombre del sitio" }
+          - { name: "title", label: "Titulo del sitio" }
+          - { name: "description", label: "Descripcion del Sitio" }
+          - { name: "url", label: "Url web" }
+          - { name: "locale", label: "Lenguaje" }
+          - { name: "author", label: "Autor" }
+          - { name: "accounts", label: "Cuentas (separados por coma)" }

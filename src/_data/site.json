@@ -1,8 +1,8 @@
 {
-  "site_name": "Starter",
-  "title": "Eleventy Starter Boilerplate",
-  "description": "Starter code for your 11ty blog Boilerplate",
+  "site_name": "Magica Nocturna",
+  "title": "Magica Nocturna",
+  "description": "𝑹𝒆𝒄𝒐𝒓𝒅 𝒐𝒇 𝑵𝒊𝒈𝒉𝒕𝒍𝒊𝒇𝒆 𝒊𝒏 𝒕𝒉𝒆 𝑪𝑫𝑴𝑿🔥",
   "url": "https://example.com",
-  "locale": "en",
-  "author": "Anonymous"
+  "locale": "es",
+  "author": "Blue"
 }
